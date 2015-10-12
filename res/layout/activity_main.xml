@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    tools:context=".MainActivity" >
+
+    <Button 
+        android:id="@+id/buttonStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="开始">
+    </Button>
+    <EditText 
+        android:id="@+id/editNumOfFrames"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/buttonStart"
+        android:hint="123"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerFrames"
+        android:layout_below="@id/editNumOfFrames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+</RelativeLayout>

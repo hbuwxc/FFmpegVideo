@@ -1,2 +1,2 @@
 # FFmpegVideo
-ffmpeg video decode and encode
+ffmpeg video decode and encode for android
